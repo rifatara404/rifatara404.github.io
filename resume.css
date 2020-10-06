@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+body{
+	background :linear-gradient(to right,#3525af, #9153c9);
+}
+
+.Resume{
+	width: 75%;
+	background:#fff;
+	margin: 25px auto;
+	display: flex; 
+}
+.left{
+	background: #292b2f;
+	width: 250px;
+	padding: 0 20px;
+	list-style: none;
+
+}
+.right{
+	width: calc(100%-250px);
+}
+ .img_holder{
+	text-align: center;
+	padding: 20px 0;
+}
+.img_holder img{
+	width: 200px;
+	border-radius: 30px;
+}
+.contact_info{
+	padding-bottom: 20px; 
+}
+.tittle{
+	font-size: 24px;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #3525af;
+	position: relative;
+	text-align: left;
+	margin-bottom: 15px;
+
+}
+.left .icon{
+	font-size: 20px;
+	color: #9153c9;
+
+}
+.left .text{
+	color: #9153c9;
+	
+	font-size: 13px;
+}
+
+.Contact .li_wrap {
+	list-style-type: none;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 35px;
+	
+}
+.Contact .li_wrap .icon{
+	list-style-type: none;
+	height: 50px;
+	width: :50px;
+	border-radius: 15px;
+	background-color: #fff;
+	align-items: center;
+	display: flex;
+	padding-right: 15px;
+	padding-left: 15px;
+	justify-content: center;
+
+
+
+}
+.Contact .li_wrap .text{
+	padding-left: 15px;
+	color: #fff;
+	word-break: break-word;
+}
+.Hobbies ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+.Hobbies .li_wrap {
+	border:2px solid #fff;
+	border-collapse: separate;
+	list-style: none;
+	height: 100px;
+	width: 100px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	align-items: center;
+	
+	
+}
+
+
+.Hobbies .li_wrap .icon{
+	height: 50px;
+	width: :50px;
+	border-radius: 15px;
+	background-color: #fff;
+	align-items: center;
+	display: flex;
+	padding-right: 5px;
+	padding-left: 5px;
+	justify-content: center;
+
+
+}
+
+.Hobbies .li_wrap .text{
+	padding-left: 15px;
+	color: #fff;
+	word-break: break-word;
+	padding-bottom: 20%;
+}
+.Hobbies .li_wrap.icon,
+.Hobbies .li_wrap.text{
+	color: #fff;
+}
+
+.Hobbies .li_wrap:hover{
+background-color:#848484;
+}
+
+.Hobbies .li_wrap:hover.icon,
+.Hobbies .li_wrap:hover.text{
+	color: #9153c9;
+}
+
+
+.header{
+	background-color: #BDBDBD;
+	color: #fff;
+	padding: 15px 30px;
+	height: 360px;
+}
+
+.header .name{
+	font-size: 52px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #3525af;
+	
+
+}
+.header .role{
+	font-size: 25px;
+	font-weight: 200;
+	color: #3525af;
+}
+.header .about{
+	margin-top: 20px;
+	line-height: 36px;
+}
+
+.skill_info{
+	height: calc(100%-360px);
+	background-color: #D8D8D8;
+	color: #fff;
+	padding: 15px 30px;
+	
+}
+
+.right .skill_info .skill .it_skill ul{
+	list-style-type: circle;
+}
+
+
+
+.skill .it_skill .text{
+	color: #000000;
+	word-spacing: 10px;
+	line-height:200%; 
+}
+.edu_list{
+	
+	width: 75%;
+	height: 400px;
+	color: purple;
+}
+ .edu_list ul{
+ 	list-style-position: circle;
+ 	
+	
+}
+.education .tittle{
+	color: #000000;
+	padding-left: 25%;
+	padding-top: 20px;
+	letter-spacing: 5px;
+	font-weight: 700;
+	word-spacing: 10px;
+
+
+}
+
+
+
+
+
+
+
+.sk ul{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+.sk.li_wrap {
+
+		
+	height: 80px;
+	width: 80px;
+	padding: 10px 10px 10px 10px;
+	border: 3px solid #FFFFFF;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	align-items: center;
+	
+	
+}
+
+
+.sk .li_wrap .icon{
+	height: 50px;
+	width: :50px;
+	border-radius: 15px;
+	background-color: #fff;
+	align-items: center;
+	display: flex;
+	padding-right: 5px;
+	padding-left: 5px;
+	justify-content: center;
+
+
+}
+
+.sk .li_wrap .text{
+	padding-left: 15px;
+	color: #fff;
+	word-break: break-word;
+	padding-bottom: 20%;
+	letter-spacing: 2px;
+}
+.sk .li_wrap.icon,
+.sk .li_wrap.text{
+	color: #fff;
+	border: 3px solid #FFFFFF;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sk .li_wrap:hover{
+background-color:#848484;
+border: 3px solid #FFFFFF;
+border-radius: 15px; 
+}
+
+.sk .li_wrap:hover.icon,
+.sk .li_wrap:hover.text{
+
+	color: #9153c9;
+}
+
